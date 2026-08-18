@@ -24,9 +24,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
-      - name: Copy HTML files to web2site root for Pages
-        run: cp web2site/html/* web2site/
-        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
