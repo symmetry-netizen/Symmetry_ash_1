@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
          
-          path: './web2site'
+          path: './web2site/html'
 
   deploy:
     environment:
